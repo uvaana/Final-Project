@@ -1,0 +1,55 @@
+-----------Details About the Project-------------
+
+====BookAPI====
+
+Controllers:
+
+BooksController - CRUD operations performed.
+LoginController - Login and Registration using JWT Token validation is performed.
+
+Models:
+
+ImageDBContext  - Database Server with connection strings.
+TblDatum - Table for BooksController.
+TblLogin - Table for LoginController.
+
+appsettings.json:
+
+Where the connection strings are present.
+
+Startup.cs:
+
+Main part for all the API's
+
+
+
+======React======
+
+Index.js - Main part of code is executed
+
+App.js - WebPage that contains navigation bar with ViewBooks and Logout Button. Also contains Books.js for adding new Books.
+
+App1.js - WebPage that contains navigation bar with SignIn and SignUp Button. Also contains Home.js for searching the books as a guest user.
+
+App2.js - WebPage that contains navigation bar with View Subscribed and Logout Button. Also contains Subscribe.js for subscribe the books as a reader.
+
+Layout.js - Navigation Bar for App.js Page.
+
+HomeBar.js - Navigation Bar for App1.js Page.
+
+SubBar.js - Navigation Bar for App2.js Page.
+
+AddBooks.js - Using a form element we can add new books.
+
+ViewBooks.js - We can see the created books and can edit, delete it.
+
+UpdateBooks.js - Edit the books from the existing data.
+
+DeleteBooks.js - Delete the created books.
+
+Books.js - Navigation for AddBooks.js.
+
+Home.js - Search box for the guest user.
+
+Subscribe.js - Can subscribe the existing books.
+
